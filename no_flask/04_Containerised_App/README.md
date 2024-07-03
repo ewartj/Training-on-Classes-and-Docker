@@ -11,16 +11,12 @@ This takes the models found in eda_explosion from [Python_Training_for_BI_Analys
 
 ## Docker
 
-This code has been wrapped in a docker container and an image of this can be found on [Dockerhub](https://hub.docker.com/repository/docker/ejsheldon/dna_tutorial/general)
-
-To run this install docker and WSL then run the above or cd to the 04_Containerised_App folder and run:
+To run:
 
 ```sh
 docker build -t docker_example:test .
 docker run --name docker -v /home/shelde2/Training-on-Classes-and-Docker/no_flask/04_Containerised_App/static/data:/app/app/static/data -it docker_example:test /bin/bash
 ```
-
-Now if you navigate to localhost:5000 in any browser the app should be up in the container.
 
 To kill all the containers and start again
 
