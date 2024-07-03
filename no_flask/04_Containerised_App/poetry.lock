@@ -1051,7 +1051,22 @@ files = [
     {file = "tzdata-2024.1.tar.gz", hash = "sha256:2674120f8d891909751c38abcdfd386ac0a5a1127954fbc332af6b5ceae07efd"},
 ]
 
+[[package]]
+name = "vl-convert-python"
+version = "1.5.0"
+description = "Convert Vega-Lite chart specifications to SVG, PNG, or Vega"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "vl_convert_python-1.5.0-cp37-abi3-macosx_11_0_arm64.whl", hash = "sha256:fba51e437a09aa0fb04e1931a4b851231053aeb14715a3653e272c829aac1dc4"},
+    {file = "vl_convert_python-1.5.0-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:0244666476817c1f772d26286485c24ce2218fafd9b4f1913a6ef21857083531"},
+    {file = "vl_convert_python-1.5.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:889a403781e08a77e22370a6cac25e1c0720042dbaa7d006a5dcc3bf015e7587"},
+    {file = "vl_convert_python-1.5.0-cp37-abi3-win_amd64.whl", hash = "sha256:6d493952f568c85a445c2e515371a61f7ff2d09f5585e915abceec3efcd5826b"},
+    {file = "vl_convert_python-1.5.0.tar.gz", hash = "sha256:ba1e13a84f5a3d1af393d0d32aa19c4268db573d5f5c799bce8a5dc0468b1899"},
+]
+
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "4eef6b16f6fa1b5b674c2b48d3ea6cf33f4567b12e800644e9041964b2c4a334"
+content-hash = "4142336c0609128923887124e1029302b48fe553ae32daed182c8cbc69f43ffd"

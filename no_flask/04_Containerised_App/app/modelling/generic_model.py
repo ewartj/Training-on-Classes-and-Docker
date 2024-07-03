@@ -64,7 +64,7 @@ class Basic_model(ABC):
         plt.ylabel("True Positive Rate")
         plt.title(f"ROC Curve for {m_label} Classifier")
         plt.legend(loc="lower right")
-        plt.savefig(f"app/static/{filename}.png", format="png")
+        plt.savefig(f"app/static/data/{filename}.png", format="png")
 
     def get_auc(self):
         """Return the AUC score."""
