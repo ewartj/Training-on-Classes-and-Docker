@@ -16,8 +16,8 @@ This code has been wrapped in a docker container and an image of this can be fou
 To run this install docker and WSL then run the above or cd to the 04_Containerised_App folder and run:
 
 ```sh
-docker docker build -t no_shows_improved .
-docker docker run no_shows_improved
+docker build -t docker_example:test .
+docker run --name docker -v /home/shelde2/Training-on-Classes-and-Docker/no_flask/04_Containerised_App/static/data:/app/app/static/data -it docker_example:test /bin/bash
 ```
 
 Now if you navigate to localhost:5000 in any browser the app should be up in the container.
